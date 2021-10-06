@@ -1,0 +1,132 @@
+main{
+    background-color: grey;
+    
+}
+.header-container {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    margin-right: 12px;
+}
+
+.add-button {
+    color: #fff;
+    background-color: #e52630;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search-form {
+    div {
+     margin-top: 30px;
+    }
+}
+
+
+.searching-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    
+    
+
+    
+    
+    div {
+        box-sizing: border-box;
+        border: 2px double blue;
+        margin-left: 15px;
+    }
+}
+
+.formos-div{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+button{
+    background-color: cornflowerblue;
+    size: 40px;
+}
+#registracijos-lagas{
+    color: blue;
+}
+
+#classified-image img {
+    max-height: 205px;
+}
+
+#classified-title-block {
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#classified-price-block {
+    background-color: #0071bb;
+    color: white;
+    display: none;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#classified-details-block {
+    color: white;
+}
+
+#form-error {
+    display: none;
+    color: red;
+}
+
+#classified-info-block {
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.panels {
+    display: flex;
+}
+
+.right-panel {
+    display: flex;
+}
+
+.left-panel{
+    width: 50%;
+}
+
+.right-panel{
+    width: 50%;
+}
+
+.cars-type{
+
+    input{
+        margin-left: 70px;
+        
+
+    }
+    
+    margin-left: 45px;
+    select{
+        margin-left: 45px;
+    }
+}
+.lable{
+    margin-left: 135px;
+}
