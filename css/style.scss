@@ -1,5 +1,21 @@
 main{
-    background-color: grey;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image:url(/img/backGround.jpg) ;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: 100% 100%;
+    
+    
+    h3{
+    font-family: 'Brush Script MT', cursive;
+    margin-left: 160px;
+    
+    }
+    h4{
+        margin-right: 160px;
+    }
+
     
 }
 .header-container {
@@ -7,6 +23,9 @@ main{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+.logo-container{
+    margin-left: 10px;
 }
 
 .button-container {
@@ -31,6 +50,10 @@ main{
     }
 }
 
+.metai{
+    margin-top: 10px;
+    margin-left: 20px;
+}
 
 .searching-bar {
     display: flex;
@@ -47,6 +70,10 @@ main{
         border: 2px double blue;
         margin-left: 15px;
     }
+
+    
+        
+
 }
 
 .formos-div{
@@ -96,6 +123,7 @@ button{
     margin-bottom: auto;
     width: 100%;
     margin-right: 10px;
+    box-shadow: red;
 }
 
 .panels {
@@ -107,6 +135,7 @@ button{
 }
 
 .left-panel{
+
     width: 50%;
 }
 

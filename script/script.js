@@ -32,6 +32,7 @@ function onButtonClick(){
     } else {
         errorField.style.display = 'none';
         priceBlock.style.display = 'block';
+        
         createCar(marke, modelis,metai,menuo,body_type_id,kaina,image,kuroTipas, gearbox, status);
     }
 }
